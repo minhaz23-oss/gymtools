@@ -2,32 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+body{
+  @apply bg-black text-white px-[30px] lg:px-[100px] py-[10px] 
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.links{
+  @apply lg:text-[18px] text-[16px] font-bold text-silver uppercase cursor-pointer hover:text-orange
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.head-text{
+  @apply font-black text-[40px] md:text-[60px] uppercase text-center leading-none
+}
+.body-text{
+  @apply font-semibold text-[16px] md:text-[18px] text-silver text-center leading-none mt-2
+}
+.gradient-text{
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-orange to-gray
+}
+.gradient{
+  @apply bg-gradient-to-r from-orange to-gray
+}
+.flex-center{
+  @apply justify-center items-center
+}
+.btn-primary{
+  @apply px-5 py-2 hover:scale-105 text-[12px] sm:text-[12px] md:text-[14px]  duration-500 transition bg-gradient-to-r hover:from-gray from-orange hover:to-orange to-gray text-white font-bold rounded-[8px]
+}
+.btn-secondary{
+  @apply  px-4 bg-cardcolor/[.12] text-[12px] sm:text-[12px] md:text-[14px] border border-orange rounded-md
+}
+.blurry-div1{
+  @apply w-[60px] sm:w-[100px] sm:h-[100px] h-[60px] bg-gradient-to-r from-orange to-gray sm:blur-[35px] blur-[25px] absolute top-[75%] left-[20px]
+}
+.blurry-div2{
+  @apply w-[50px] sm:w-[80px] sm:h-[80px] h-[50px] bg-gradient-to-r from-orange to-gray sm:blur-[35px] blur-[25px] absolute top-[0px] right-[10px]
+}
+.lists{
+  @apply list-disc list-inside text-silver font-medium leading-7
 }
