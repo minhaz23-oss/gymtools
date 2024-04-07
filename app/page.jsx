@@ -11,10 +11,10 @@ const customFont = Nothing_You_Could_Do({
 });
 export default function Home() {
   const cards = [
-    { id: 1, name: "PU Dumbbells Pair 50kg",img:'product1.jpg',goto:'https://a.co/d/65BuMKQ' },
-    { id: 2, name: "Grebest Heavy Duty Resistance",img:'product2.jpg',goto:'https://a.co/d/fcgQPhE'},
-    { id: 3, name: "Competition Kettlebell ",img:'product3.jpg',goto:'https://a.co/d/a8FYChT' },
-    { id: 4, name: "Foam Roller",img:'product4.jpg',goto:'https://a.co/d/eQfdDD6' },
+    { id: 1, name: "PU Dumbbells Pair 50kg",img:'product1.jpg',goto:'https://amzn.to/49wQ1ZM' },
+    { id: 2, name: "Grebest Heavy Duty Resistance",img:'product2.jpg',goto:'https://amzn.to/4aNW79n'},
+    { id: 3, name: "Competition Kettlebell ",img:'product3.jpg',goto:'https://amzn.to/3TMP0Ha' },
+    { id: 4, name: "Foam Roller",img:'product4.jpg',goto:'https://amzn.to/3vPq3CT' },
   ];
   return (
     <main className=" w-full min-h-[300px] mb-10 ">

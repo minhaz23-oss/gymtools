@@ -2,14 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 const page = () => {
   const products = [
-    { id: 1, name: "PU Dumbbells Pair 50kg", img:'product1.jpg',goto:'https://a.co/d/65BuMKQ'  },
-    { id: 2, name: "Grebest Heavy Duty Resistance ", img: 'product2.jpg',goto:'https://a.co/d/fcgQPhE' },
-    { id: 3, name: "Competition Kettlebell",  img: 'product3.jpg',goto:'https://a.co/d/a8FYChT'  },
-    { id: 4, name: "Foam Roller", img: 'product4.jpg',goto:'https://a.co/d/eQfdDD6'  },
-    { id: 5, name: "Jump Rope", img: 'product5.jpeg',goto:'https://a.co/d/79S91RI' },
-    { id: 6, name: "Premium fitness yoga mat - 15mm", img: 'product6.jpg',goto:'https://a.co/d/7wjTA9E' },
-    { id: 7, name: "Hand grip strengthener counter", img: 'product7.jpg',goto:'https://a.co/d/dhDVMvk' },
-    { id: 8, name: "stability ball", img: 'product8.jpg',goto:'https://a.co/d/5wub29R' },
+    { id: 1, name: "PU Dumbbells Pair 50kg", img:'product1.jpg',goto:'https://amzn.to/49wQ1ZM'  },
+    { id: 2, name: "Grebest Heavy Duty Resistance ", img: 'product2.jpg',goto:'https://amzn.to/4aNW79n' },
+    { id: 3, name: "Competition Kettlebell",  img: 'product3.jpg',goto:'https://amzn.to/3TMP0Ha'  },
+    { id: 4, name: "Foam Roller", img: 'product4.jpg',goto:'https://amzn.to/3vPq3CT'  },
+    { id: 5, name: "Jump Rope", img: 'product5.jpeg',goto:'https://amzn.to/3xrAvRC' },
+    { id: 6, name: "Premium fitness yoga mat - 15mm", img: 'product6.jpg',goto:'https://amzn.to/49mcZmo' },
+    { id: 7, name: "Hand grip strengthener counter", img: 'product7.jpg',goto:'https://amzn.to/4avrOoc' },
+    { id: 8, name: "stability ball", img: 'product8.jpg',goto:'https://amzn.to/49HHPWV' },
   ]
   return (
     <main className=" w-full mt-10 flex flex-col flex-center pb-[100px]">
